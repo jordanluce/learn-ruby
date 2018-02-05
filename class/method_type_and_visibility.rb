@@ -25,36 +25,36 @@
 
 ## public and private methods
 
-class Customer
-	attr_accessor :firstname, :lastname, :email
+# class Customer
+# 	attr_accessor :firstname, :lastname, :email
 
-	def initialize (firstname, lastname, email)
-		@firstname = firstname
-		@lastname = lastname
-		@email = email
-	end
+# 	def initialize (firstname, lastname, email)
+# 		@firstname = firstname
+# 		@lastname = lastname
+# 		@email = email
+# 	end
 
-	def to_s
-		"#{@firstname} #{@lastname}"
-	end
+# 	def to_s
+# 		"#{@firstname} #{@lastname}"
+# 	end
 
-	def self.status
-		'active'
-	end
+# 	def self.status
+# 		'active'
+# 	end
 
-	def cost
-		100
-	end
+# 	def cost
+# 		100
+# 	end
 
-	def bill
-		cost - discount
-	end
+# 	def bill
+# 		cost - discount
+# 	end
 
-	private
+# 	private
 
-	def discount
-		80
-	end
-end
-customer = Customer.new('john', 'doe', 'john.doe@test.com')
-puts customer.bill
+# 	def discount
+# 		80
+# 	end
+# end
+# customer = Customer.new('john', 'doe', 'john.doe@test.com')
+# puts customer.bill
